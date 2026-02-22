@@ -1,2 +1,2 @@
 ## 🚀 Live Demo
-🔗 https://your-app-link.streamlit.app
+🔗 https://churn-prediction-dashboard-azcbou5rwuqembqm5go2zg.streamlit.app/
