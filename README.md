@@ -52,8 +52,11 @@ After running, Streamlit will automatically open the app in your browser at:
 📁 Project Structure
     
 app.py
+
 model.pkl  
+
 requirements.txt
+
 README.md
 
 📌 Notes
