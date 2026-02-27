@@ -1,65 +1,63 @@
+# 📊 Churn Prediction Dashboard
 
-📊 Churn Prediction Dashboard
+This is a Machine Learning web application built using **Streamlit** that predicts customer churn based on input features.
 
-This is a Machine Learning web application built using Streamlit that predicts customer churn based on input features.
-
-🔗 Live App:
+🔗 **Live App:**  
 https://churn-prediction-dashboard-azcbou5rwuqembqm5go2zg.streamlit.app/
 
-🛠️ Technologies Used
+---
 
-  1)Python
+## 🛠️ Technologies Used
 
-  2)Streamlit
+- Python  
+- Streamlit  
+- Scikit-learn  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
 
-  3)Scikit-learn
+---
 
-  4)Pandas
-
-  5)NumPy
-
-  6)Matplotlib / Seaborn
-
-💻 How to Run This Project Locally
+## 💻 How to Run This Project Locally
 
 Follow these steps to run the project on your system:
 
-Step 1: Clone the Repository
+### 🔹 Step 1: Clone the Repository
 
+```bash
 git clone https://github.com/your-username/churn-prediction-dashboard.git
 cd churn-prediction-dashboard
-
-Step 2: Create Virtual Environment (Recommended)
-
+🔹 Step 2: Create Virtual Environment (Recommended)
+For Windows:
 python -m venv venv
-venv\Scripts\activate     # For Windows
-
+venv\Scripts\activate
 For Mac/Linux:
+python3 -m venv venv
 source venv/bin/activate
+🔹 Step 3: Install Required Libraries
+pip install -r requirements.txt
 
-Step 3: Install Required Libraries
-        pip install -r requirements.txt
+If requirements.txt is not available:
 
-# If requirements.txt is not available:
-  pip install streamlit pandas numpy scikit-learn matplotlib seaborn
-
-Step 4: Run the Application
-       streamlit run app.py
+pip install streamlit pandas numpy scikit-learn matplotlib seaborn
+🔹 Step 4: Run the Application
+streamlit run app.py
 
 After running, Streamlit will automatically open the app in your browser at:
-             http://localhost:8501
 
+http://localhost:8501
 📁 Project Structure
-    
-app.py
-
-model.pkl  
-
-requirements.txt
-
-README.md
-
+churn-prediction-dashboard/
+│
+├── app.py
+├── model.pkl
+├── requirements.txt
+└── README.md
 📌 Notes
 
-1) Make sure model.pkl file is in the same directory as app.py
-2) Python version 3.8+ recommended
+Make sure model.pkl file is in the same directory as app.py
+
+Python version 3.8+ recommended
+
+Ensure all dependencies are installed before running the app
